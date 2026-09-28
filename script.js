@@ -21,10 +21,10 @@ form.addEventListener("submit", function(event){
 
 	promise
 		.then(()=>{
-			alert("Welcome. You can vote")
+			alert(`Welcome, ${name}. You can vote`)
 		})
 		.catch(()=>{
-			alert("Oh sorry. You aren't old enough")
+			alert(`Oh sorry ${name}. You aren't old enough`)
 		})
 })
 
